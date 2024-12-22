@@ -1,0 +1,23 @@
+path=  https://newsapi.org/
+method = v2/top-headlines
+query=  country=us&category=business&apiKey=88909158b7aa4c96b4b2497b1d8b209d
+
+https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=88909158b7aa4c96b4b2497b1d8b209d
+
+#  Future<void> fetchNewsData(String url, Map<String, dynamic> query) async {
+#     try {
+#       var response = await DioHelper.getData(url: url, query: query);
+#       print(response.data['articles']); // Assuming this is the correct key
+#     } catch (error) {
+#       print(error.toString());
+#     }
+#   }
+
+
+
+# fetchNewsData('v2/everything', {
+#                 'q': 'tesla',
+#                 'from': '2024-11-16',
+#                 'sortBy': 'publishedAt',
+#                 'apiKey': '88909158b7aa4c96b4b2497b1d8b209d', // Replace with your actual API key
+#               });
